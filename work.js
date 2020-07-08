@@ -23,7 +23,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 	animationEnabled: true,
 	theme: "light2", // "light1", "light2", "dark1", "dark2"
 	title: {
-		text: "Runs conceded by Sachin as a bowler against oppositions"
+		text: "Runs scored by MS against oppositions"
 	},
 	axisY: {
 		title: "Runs Conceded",
@@ -37,18 +37,17 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 		type: "column",
 	
 		dataPoints: [
-			{ label: "Australi", y: 567 },	
-			{ label: "Bangladesh", y: 130 },	
-			{ label: "England", y: 320 },
-			{ label: "New Zealand", y: 272 },	
-			{ label: "Pakistan", y: 395 },
-			{ label: "South Africa", y: 300 },
-			{ label: " Ssri Lanka", y: 74 },
-			{ label: "South Afirca", y: 262},
-			{ label: "Kenya", y: 172 },
-			{ label: "Bermuda", y: 30 },
-			{ label: "UAE", y: 15 },
-			{ label: "Ireland", y: 75 }
+			{ label: "Australi", y: 1660 },	
+			{ label: "Bangladesh", y:  569},	
+			{ label: "England", y: 1546 },
+			{ label: "New Zealand", y: 940 },	
+			{ label: "Pakistan", y: 1231 },
+			{ label: "South Africa", y: 830},
+			{ label: " Sri Lanka", y: 2383 },
+			{ label: "West Indies", y: 1005 },
+			{ label: "Zinmbabwe", y: 208 },
+			{ label: "Hong Kong", y: 109 },
+			{ label: "Ireland", y: 34 }
 			
 		]
 	}]

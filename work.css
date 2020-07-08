@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+.info{
+    align-content: center;
+}
 table, th, td {
 	  font-weight: bold;
 	  border: 1px solid blue;
@@ -33,6 +35,14 @@ table, th, td {
     display: block;
     
 }
+.info{
+    padding-left: 7rem;
+}
+.info1{
+    padding-left: 2rem;
+}
+
+
 
 .text1{
     color: black;
